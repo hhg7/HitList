@@ -1,0 +1,25 @@
+{
+  "version": "1.2",
+  "dbname": "protein",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "protein.faa",
+  "number-of-letters": 54695,
+  "number-of-sequences": 278,
+  "last-updated": "2024-11-22T10:19:00",
+  "number-of-volumes": 1,
+  "bytes-total": 139013,
+  "bytes-to-cache": 57294,
+  "files": [
+    "protein.pdb",
+    "protein.phd",
+    "protein.phi",
+    "protein.phr",
+    "protein.pin",
+    "protein.pog",
+    "protein.pot",
+    "protein.psq",
+    "protein.ptf",
+    "protein.pto"
+  ]
+}

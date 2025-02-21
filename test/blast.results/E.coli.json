@@ -1,0 +1,310 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.14.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "blastdb/e.coli/protein"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "DEG10180001",
+          "query_len": 195,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|8",
+                  "accession": "8",
+                  "title": "NP_414550.1 molybdopterin adenylyltransferase [Escherichia coli str. K-12 substr. MG1655]"
+                }
+              ],
+              "len": 195,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 397.512,
+                  "score": 1020,
+                  "evalue": 1.2647e-144,
+                  "identity": 195,
+                  "positive": 195,
+                  "query_from": 1,
+                  "query_to": 195,
+                  "hit_from": 1,
+                  "hit_to": 195,
+                  "align_len": 195,
+                  "gaps": 0,
+                  "qseq": "MNTLRIGLVSISDRASSGVYQDKGIPALEEWLTSALTTPFELETRLIPDEQAIIEQTLCELVDEMSCHLVLTTGGTGPARRDVTPDATLAVADREMPGFGEQMRQISLHFVPTAILSRQVGVIRKQALILNLPGQPKSIKETLEGVKDAEGNVVVHGIFASVPYCIQLLEGPYVETAPEVVAAFRPKSARRDVSE",
+                  "hseq": "MNTLRIGLVSISDRASSGVYQDKGIPALEEWLTSALTTPFELETRLIPDEQAIIEQTLCELVDEMSCHLVLTTGGTGPARRDVTPDATLAVADREMPGFGEQMRQISLHFVPTAILSRQVGVIRKQALILNLPGQPKSIKETLEGVKDAEGNVVVHGIFASVPYCIQLLEGPYVETAPEVVAAFRPKSARRDVSE",
+                  "midline": "MNTLRIGLVSISDRASSGVYQDKGIPALEEWLTSALTTPFELETRLIPDEQAIIEQTLCELVDEMSCHLVLTTGGTGPARRDVTPDATLAVADREMPGFGEQMRQISLHFVPTAILSRQVGVIRKQALILNLPGQPKSIKETLEGVKDAEGNVVVHGIFASVPYCIQLLEGPYVETAPEVVAAFRPKSARRDVSE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|695",
+                  "accession": "695",
+                  "title": "NP_415303.1 protein MoaB [Escherichia coli str. K-12 substr. MG1655]"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 57.3806,
+                  "score": 137,
+                  "evalue": 1.50359e-11,
+                  "identity": 32,
+                  "positive": 51,
+                  "query_from": 46,
+                  "query_to": 146,
+                  "hit_from": 49,
+                  "hit_to": 150,
+                  "align_len": 102,
+                  "gaps": 1,
+                  "qseq": "LIPDEQAIIEQTLCELVDEMSCHLVLTTGGTGPARRDVTPDATLAVADREMPGFGEQMRQISLHFVPTAIL-SRQVGVIRKQALILNLPGQPKSIKETLEGV",
+                  "hseq": "IVKENRYAIRAQVSAWIASDDVQVVLITGGTGLTEGDQAPEALLPLFDREVEGFGEVFRMLSFEEIGTSTLQSRAVAGVANKTLIFAMPGSTKACRTAWENI",
+                  "midline": "++ + +  I   +   +      +VL TGGTG    D  P+A L + DRE+ GFGE  R +S   + T+ L SR V  +  + LI  +PG  K+ +   E +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|62",
+                  "accession": "62",
+                  "title": "NP_414609.1 thiamine ABC transporter membrane subunit [Escherichia coli str. K-12 substr. MG1655]"
+                }
+              ],
+              "len": 536,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 25.409,
+                  "score": 54,
+                  "evalue": 3.36007,
+                  "identity": 14,
+                  "positive": 26,
+                  "query_from": 128,
+                  "query_to": 172,
+                  "hit_from": 377,
+                  "hit_to": 427,
+                  "align_len": 51,
+                  "gaps": 6,
+                  "qseq": "LILNLPGQPKS------IKETLEGVKDAEGNVVVHGIFASVPYCIQLLEGP",
+                  "hseq": "LILAMPGIVLATGFFLLLNNTIGLPQSADGIVIFTNALMAIPYALKVLENP",
+                  "midline": "LIL +PG   +      +  T+   + A+G V+      ++PY +++LE P"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|3847",
+                  "accession": "3847",
+                  "title": "NP_418743.1 D-mannonate oxidoreductase [Escherichia coli str. K-12 substr. MG1655]"
+                }
+              ],
+              "len": 486,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 6.41718,
+                  "identity": 12,
+                  "positive": 22,
+                  "query_from": 26,
+                  "query_to": 68,
+                  "hit_from": 208,
+                  "hit_to": 247,
+                  "align_len": 43,
+                  "gaps": 3,
+                  "qseq": "PALEEWLTSALTTPFELETRLIPDEQAIIEQTLCELVDEMSCH",
+                  "hseq": "PQLAAWIEENVTFPCTMVDRIVP---AATPETLQEIADQLGVY",
+                  "midline": "P L  W+   +T P  +  R++P   A   +TL E+ D++  +"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|3199",
+                  "accession": "3199",
+                  "title": "NP_418010.2 DUF3053 domain-containing protein YiaF [Escherichia coli str. K-12 substr. MG1655]"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 7.08972,
+                  "identity": 14,
+                  "positive": 22,
+                  "query_from": 12,
+                  "query_to": 56,
+                  "hit_from": 132,
+                  "hit_to": 177,
+                  "align_len": 46,
+                  "gaps": 1,
+                  "qseq": "SDRASSGVYQDKGI-PALEEWLTSALTTPFELETRLIPDEQAIIEQ",
+                  "hseq": "ADAAHSALKQSDDLKPVFDQAFTKVVTTPADALQPLIPAAQTFTQQ",
+                  "midline": "+D A S + Q   + P  ++  T  +TTP +    LIP  Q   +Q"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|1853",
+                  "accession": "1853",
+                  "title": "NP_416540.1 UDP-galactopyranose mutase [Escherichia coli str. K-12 substr. MG1655]"
+                }
+              ],
+              "len": 367,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 8.68176,
+                  "identity": 15,
+                  "positive": 21,
+                  "query_from": 148,
+                  "query_to": 186,
+                  "hit_from": 260,
+                  "hit_to": 300,
+                  "align_len": 41,
+                  "gaps": 2,
+                  "qseq": "DAEGNVVVHGIFASVPYC--IQLLEGPYVETAPEVVAAFRP",
+                  "hseq": "NFQGNAVINFTDANVPYTRIIEHKHFDYVETKHTVVTKEYP",
+                  "midline": "+ +GN V++   A+VPY   I+     YVET   VV    P"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|1107",
+                  "accession": "1107",
+                  "title": "NP_415730.1 protein-(glutamine-N(5)) methyltransferase [Escherichia coli str. K-12 substr. MG1655]"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 8.99241,
+                  "identity": 23,
+                  "positive": 30,
+                  "query_from": 29,
+                  "query_to": 97,
+                  "hit_from": 76,
+                  "hit_to": 143,
+                  "align_len": 72,
+                  "gaps": 7,
+                  "qseq": "EEWLTSALTTPFELETRLIPDEQAIIEQTLCELVDEMSCHLVLTTGGTGP---ARRDVTPDATLAVADREMP",
+                  "hseq": "EFWSLPLFVSPATLIPR--PDTECLVEQALARL-PEQPCRILDLGTGTGAIALALASERPDCEIIAVDR-MP",
+                  "midline": "E W      +P  L  R  PD + ++EQ L  L  E  C ++    GTG    A     PD  +   DR MP"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|307",
+                  "accession": "307",
+                  "title": "NP_414879.3 DNA-binding transcriptional repressor LacI [Escherichia coli str. K-12 substr. MG1655]"
+                }
+              ],
+              "len": 360,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 9.63123,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 91,
+                  "query_to": 116,
+                  "hit_from": 213,
+                  "hit_to": 243,
+                  "align_len": 31,
+                  "gaps": 5,
+                  "qseq": "VADRE-----MPGFGEQMRQISLHFVPTAIL",
+                  "hseq": "IAEREGDWSAMSGFQQTMQMLNEGIVPTAML",
+                  "midline": "+A+RE     M GF + M+ ++   VPTA+L"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|3268",
+                  "accession": "3268",
+                  "title": "NP_418085.2 UDP-D-galactose:(glucosyl)lipopolysaccharide-1,6-D-galactosyltransferase [Escherichia coli str. K-12 substr. MG1655]"
+                }
+              ],
+              "len": 359,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 9.80006,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 130,
+                  "query_to": 156,
+                  "hit_from": 187,
+                  "hit_to": 212,
+                  "align_len": 27,
+                  "gaps": 1,
+                  "qseq": "LNLPGQPKSIKETLEGVKDAEGNVVVH",
+                  "hseq": "MKFEGQ-KRVKDLLDGLSQAKGNWKLH",
+                  "midline": "+   GQ K +K+ L+G+  A+GN  +H"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 4298,
+            "db_len": 1329980,
+            "hsp_len": 79,
+            "eff_space": 114890808,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

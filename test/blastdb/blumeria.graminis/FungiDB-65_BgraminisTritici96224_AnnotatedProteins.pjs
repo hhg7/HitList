@@ -1,0 +1,25 @@
+{
+  "version": "1.2",
+  "dbname": "FungiDB-65_BgraminisTritici96224_AnnotatedProteins",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.fasta",
+  "number-of-letters": 3110456,
+  "number-of-sequences": 8347,
+  "last-updated": "2024-05-18T09:10:00",
+  "number-of-volumes": 1,
+  "bytes-total": 6854908,
+  "bytes-to-cache": 3185764,
+  "files": [
+    "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.pdb",
+    "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.phd",
+    "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.phi",
+    "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.phr",
+    "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.pin",
+    "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.pog",
+    "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.pot",
+    "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.psq",
+    "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.ptf",
+    "FungiDB-65_BgraminisTritici96224_AnnotatedProteins.pto"
+  ]
+}

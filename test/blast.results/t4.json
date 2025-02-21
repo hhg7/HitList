@@ -1,0 +1,280 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.14.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "blastdb/t4/protein"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "DEG10180001",
+          "query_len": 195,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|195",
+                  "accession": "195",
+                  "title": "NP_049811.1 Alt-like RNA polymerase ADP-ribosyltransferase [Escherichia phage T4]"
+                }
+              ],
+              "len": 682,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 1.05891,
+                  "identity": 20,
+                  "positive": 35,
+                  "query_from": 88,
+                  "query_to": 154,
+                  "hit_from": 475,
+                  "hit_to": 548,
+                  "align_len": 74,
+                  "gaps": 7,
+                  "qseq": "TLAVADREMPGFGEQMRQISL----HFVPTAILSRQVGVIRKQALILNLPGQPK---SIKETLEGVKDAEGNVV",
+                  "hseq": "TLYRSQRMLPSIYEAMVKNRVFYFRNFVSTSLYPNIFGTWMTDSSIGVLPDEKRLSVSIDKTDEGLVNSSDNLV",
+                  "midline": "TL  + R +P   E M +  +    +FV T++     G     + I  LP + +   SI +T EG+ ++  N+V"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|226",
+                  "accession": "226",
+                  "title": "NP_049842.1 endonuclease [Escherichia phage T4]"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 1.30604,
+                  "identity": 10,
+                  "positive": 17,
+                  "query_from": 69,
+                  "query_to": 99,
+                  "hit_from": 23,
+                  "hit_to": 51,
+                  "align_len": 31,
+                  "gaps": 2,
+                  "qseq": "LVLTTGGTGPARRDVTPDATLAVADREMPGF",
+                  "hseq": "LEMVKNGTHPAQKEITCDFCGHIG--KGPGF",
+                  "midline": "L +   GT PA++++T D    +   + PGF"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|214",
+                  "accession": "214",
+                  "title": "NP_049830.1 Cd.2 conserved hypothetical protein [Escherichia phage T4]"
+                }
+              ],
+              "len": 76,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 1.56635,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 84,
+                  "query_to": 123,
+                  "hit_from": 40,
+                  "hit_to": 76,
+                  "align_len": 40,
+                  "gaps": 3,
+                  "qseq": "TPDATLAVADREMPGFGEQMRQISLHFVPTAILSRQVGVI",
+                  "hseq": "TPRSVLVIVN---PGDGDQISHLKLDFDGLVEAQRVYGVL",
+                  "midline": "TP + L + +   PG G+Q+  + L F       R  GV+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|127",
+                  "accession": "127",
+                  "title": "NP_049743.1 e.7 hypothetical protein [Escherichia phage T4]"
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 1.78261,
+                  "identity": 11,
+                  "positive": 23,
+                  "query_from": 30,
+                  "query_to": 77,
+                  "hit_from": 38,
+                  "hit_to": 85,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLTSALTTPFELETRLIPDEQAIIEQTLCELVDEMSCHLVLTTGGTG",
+                  "hseq": "QWVLDYAKRIFEGVRDICPDDEAPYFKKAWELVNQAYINALESSKGTD",
+                  "midline": "+W+       FE    + PD++A   +   ELV++   + + ++ GT "
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|158",
+                  "accession": "158",
+                  "title": "NP_049774.1 tail sheath stabilizer [Escherichia phage T4]"
+                }
+              ],
+              "len": 272,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 3.10273,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 44,
+                  "query_to": 106,
+                  "hit_from": 124,
+                  "hit_to": 186,
+                  "align_len": 63,
+                  "gaps": 0,
+                  "qseq": "TRLIPDEQAIIEQTLCELVDEMSCHLVLTTGGTGPARRDVTPDATLAVADREMPGFGEQMRQI",
+                  "hseq": "TRYEDDMFQIVEQILPYFQPHFNTTMYEQFGNDIPFKRDIKIVLMSAAIDEAIDGDNLSRRRI",
+                  "midline": "TR   D   I+EQ L       +  +    G   P +RD+      A  D  + G     R+I"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|241",
+                  "accession": "241",
+                  "title": "NP_049857.1 late promoter transcriptional regulator [Escherichia phage T4]"
+                }
+              ],
+              "len": 112,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 4.40821,
+                  "identity": 22,
+                  "positive": 29,
+                  "query_from": 13,
+                  "query_to": 64,
+                  "hit_from": 36,
+                  "hit_to": 92,
+                  "align_len": 61,
+                  "gaps": 13,
+                  "qseq": "DRASSGVYQDKGIPALEEWLTSAL--TTPFELETRLIPDEQ-------AIIEQTLCELVDE",
+                  "hseq": "DRQENGFIIEKMV---EEFGMSYLEATTAF-LEENSIPETQFAKFIPSGIIEKIQSEAIDE",
+                  "midline": "DR  +G   +K +   EE+  S L  TT F LE   IP+ Q        IIE+   E +DE"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|187",
+                  "accession": "187",
+                  "title": "NP_049803.1 baseplate hub [Escherichia phage T4]"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 5.43558,
+                  "identity": 13,
+                  "positive": 23,
+                  "query_from": 46,
+                  "query_to": 89,
+                  "hit_from": 211,
+                  "hit_to": 253,
+                  "align_len": 44,
+                  "gaps": 1,
+                  "qseq": "LIPDEQAIIEQTLCELVDEMSCHLVLTTGGTGPARRDVTPDATL",
+                  "hseq": "MIVGEPSLIGQFIQELKYPLAYDFVWLTK-SNPHKRDPMKNATI",
+                  "midline": "+I  E ++I Q + EL   ++   V  T  + P +RD   +AT+"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|164",
+                  "accession": "164",
+                  "title": "NP_049780.1 tail sheath [Escherichia phage T4]"
+                }
+              ],
+              "len": 659,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 8.51364,
+                  "identity": 13,
+                  "positive": 17,
+                  "query_from": 150,
+                  "query_to": 190,
+                  "hit_from": 593,
+                  "hit_to": 633,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "EGNVVVHGIFASVPYCIQLLEGPYVETAPEVVAAFRPKSAR",
+                  "hseq": "QGNKALGGIYEYRVVCDTTNNTPSVIDRNEFVATFYIQPAR",
+                  "midline": "+GN  + GI+     C      P V    E VA F  + AR"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 278,
+            "db_len": 54695,
+            "hsp_len": 57,
+            "eff_space": 5361162,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

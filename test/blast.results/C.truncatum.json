@@ -1,0 +1,787 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.14.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "blastdb/c.truncatum/trimmed.source"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "DEG20010001",
+          "query_len": 1160,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|0",
+                  "accession": "0",
+                  "title": "XP_036576476.1 DNA replication complex GINS protein PSF2 [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 248,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 35.039,
+                  "score": 79,
+                  "evalue": 0.000145943,
+                  "identity": 22,
+                  "positive": 37,
+                  "query_from": 863,
+                  "query_to": 933,
+                  "hit_from": 150,
+                  "hit_to": 220,
+                  "align_len": 71,
+                  "gaps": 0,
+                  "qseq": "LTHSGNDLAMSSMIQREISSLKKTYTRKISASTKDLSKSQSDDYIRTVIRSILIESPSTTRNEIEALKNVG",
+                  "hseq": "LAHANDDIPSSSEVRSLLRDLQEVRSAKLRKSTEDLSEVQGVMSLRGVGAMELAESRGFFLGVIEGVRKVG",
+                  "midline": "L H+ +D+  SS ++  +  L++  + K+  ST+DLS+ Q    +R V    L ES       IE ++ VG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|9",
+                  "accession": "9",
+                  "title": "XP_036583083.1 TFIIIC transcription initiation factor complex subunits Tfc3 [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 2013,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 35.4242,
+                  "score": 80,
+                  "evalue": 0.000178154,
+                  "identity": 21,
+                  "positive": 39,
+                  "query_from": 87,
+                  "query_to": 169,
+                  "hit_from": 149,
+                  "hit_to": 222,
+                  "align_len": 83,
+                  "gaps": 9,
+                  "qseq": "ITEDSLWTLLTGYTKKESTIGNSAFELLLEVAKSGEKGINTMDLAQVTGQDPRSVTGRIKKINHLLTSSQLIYKGHVVKQLKL",
+                  "hseq": "VSEDRMWESIAGHAPDYRRVPRLEWMALVGIASTKQHGILQGDLGRLVGQDKRSLPKR---------TDALAEKGYISKRTTL",
+                  "midline": "++ED +W  + G+      +    +  L+ +A + + GI   DL ++ GQD RS+  R         +  L  KG++ K+  L"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 0.0304945,
+                  "identity": 14,
+                  "positive": 24,
+                  "query_from": 746,
+                  "query_to": 785,
+                  "hit_from": 1561,
+                  "hit_to": 1604,
+                  "align_len": 44,
+                  "gaps": 4,
+                  "qseq": "LIRAVVVTKSIKNE----IMWDKITKLFPNNSLDNLKKKWTARR",
+                  "hseq": "LIAAFVVTRTLLGGADRIIEWGLMMTLFPDMALSAMRRFWSKAR",
+                  "midline": "LI A VVT+++       I W  +  LFP+ +L  +++ W+  R"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.334063,
+                  "identity": 17,
+                  "positive": 35,
+                  "query_from": 333,
+                  "query_to": 410,
+                  "hit_from": 424,
+                  "hit_to": 500,
+                  "align_len": 79,
+                  "gaps": 3,
+                  "qseq": "PLQNQTYDIADKSGLKGISTMDVVNRITGKEFQRAFTK-SSEYYLESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQ",
+                  "hseq": "PLTSTVFDNILGAGTTGLSNKQIGDSTLGSSFRRYLSSISSTLAISTL--QPRHLSHFQVLSEMHRKGKSQQYRYFAPQ",
+                  "midline": "PL +  +D    +G  G+S   + +   G  F+R  +  SS   + ++  Q  +   +++      +GK + +R F  Q"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 21.1718,
+                  "score": 43,
+                  "evalue": 4.6321,
+                  "identity": 14,
+                  "positive": 15,
+                  "query_from": 307,
+                  "query_to": 341,
+                  "hit_from": 1302,
+                  "hit_to": 1334,
+                  "align_len": 35,
+                  "gaps": 2,
+                  "qseq": "LLQNQGLVMEEKEDAVKNEVLLNRFYPLQNQTYDI",
+                  "hseq": "LKPNTCLGQEVSEDARR--ALLPPGYPASEPTYPI",
+                  "midline": "L  N  L  E  EDA +   LL   YP    TY I"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 6.3269,
+                  "identity": 17,
+                  "positive": 25,
+                  "query_from": 664,
+                  "query_to": 730,
+                  "hit_from": 823,
+                  "hit_to": 889,
+                  "align_len": 67,
+                  "gaps": 0,
+                  "qseq": "NRFHRGKKSVERIRKFQNRQKNAKIKASDDAISKKSTSVNVSDGKIKRRDKKVSAGRTTVVVENTKE",
+                  "hseq": "NRRSTSTKHVVAPRQVKSRQTNMTTTATVESHAGSQLHSCSPDGTISDLDKSQGRGDLTFGPGNVND",
+                  "midline": "NR     K V   R+ ++RQ N    A+ ++ +         DG I   DK    G  T    N  +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|6",
+                  "accession": "6",
+                  "title": "XP_036578741.1 uncharacterized protein CTRU02_11332 [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 624,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.6538,
+                  "score": 78,
+                  "evalue": 0.000276344,
+                  "identity": 25,
+                  "positive": 42,
+                  "query_from": 155,
+                  "query_to": 239,
+                  "hit_from": 38,
+                  "hit_to": 116,
+                  "align_len": 87,
+                  "gaps": 10,
+                  "qseq": "SQLIYKGHVVKQLKLKKFSHDGVDSNPYINIRDHLATIVEVVKRSKNGIRQIIDLKRELKFDKEKRLSK--AFIAAIAWLDEKEYLK",
+                  "hseq": "TQVAYKDAEVEQLKSDRISHEGPTG--------HLDAAIKQARHERKGLRETFDEKKDKLTALKARLKKKEAKLAAIPPVESTNALK",
+                  "midline": "+Q+ YK   V+QLK  + SH+G           HL   ++  +  + G+R+  D K++     + RL K  A +AAI  ++    LK"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 24.6386,
+                  "score": 52,
+                  "evalue": 0.351327,
+                  "identity": 11,
+                  "positive": 26,
+                  "query_from": 18,
+                  "query_to": 71,
+                  "hit_from": 192,
+                  "hit_to": 242,
+                  "align_len": 54,
+                  "gaps": 3,
+                  "qseq": "IASNKGKITLNQLWDISGKYFDLSDKKVKQFVLSCVILKKDIEVYCDGAITTKN",
+                  "hseq": "IDERRQRLQRGPLSEQERQYFEMQDKRYQRFMNEAKVIKR---WFCPGQTLHPN",
+                  "midline": "I   + ++    L +   +YF++ DK+ ++F+    ++K+    +C G     N"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 2.20416,
+                  "identity": 24,
+                  "positive": 48,
+                  "query_from": 585,
+                  "query_to": 713,
+                  "hit_from": 420,
+                  "hit_to": 553,
+                  "align_len": 134,
+                  "gaps": 5,
+                  "qseq": "GSTTTLDKKTVRGDVDLMVESEKLGARTEPVSGRKIIFLPTVGEDAIQRY--ILKEKDSKKATFTDVIHDTEIYFFDQTEKNRFHRGKKSVERIRKFQNRQKNAKIKASD---DAISKKSTSVNVSDGKIKRRD",
+                  "hseq": "GLPRPLEQRVCEEEEDSTMPPAKTPFKPMPRTEDRVSFRPRPPTESLNMSDETFCQPLDEEVPFSKVAQATNFPQFSQRSKDLIPQATARSERMRSMNNSTNNSHPTTADVSGEGRDKQRRITHPGDSDITRTD",
+                  "midline": "G    L+++    + D  +   K   +  P +  ++ F P    +++        +   ++  F+ V   T    F Q  K+   +     ER+R   N   N+    +D   +   K+    +  D  I R D"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|14",
+                  "accession": "14",
+                  "title": "XP_036588424.1 ABC multidrug transporter [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 1285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 22.7126,
+                  "score": 47,
+                  "evalue": 1.42194,
+                  "identity": 13,
+                  "positive": 25,
+                  "query_from": 983,
+                  "query_to": 1022,
+                  "hit_from": 568,
+                  "hit_to": 608,
+                  "align_len": 45,
+                  "gaps": 9,
+                  "qseq": "RCKVNELLEAGNAIVINQEP-----SDISSWVLIDLISGELLNMD",
+                  "hseq": "RCFCSDLLKGRTVVLVAQQPWVAAQADIS----VTLEDGEIKNVE",
+                  "midline": "RC  ++LL+    +++ Q+P     +DIS    + L  GE+ N++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 8.23619,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 391,
+                  "query_to": 427,
+                  "hit_from": 132,
+                  "hit_to": 174,
+                  "align_len": 43,
+                  "gaps": 6,
+                  "qseq": "LFRIYDFEGKKKFFRL---FTAQNFQKLTNA---EDEISVPKG",
+                  "hseq": "LFQQYVFTSTRLVVRLRSALTQELYHRAVSSMELEDDIFAPKG",
+                  "midline": "LF+ Y F   +   RL    T + + +  ++   ED+I  PKG"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|13",
+                  "accession": "13",
+                  "title": "XP_036588398.1 Developmental regulator flbA [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 720,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 7.08425,
+                  "identity": 13,
+                  "positive": 28,
+                  "query_from": 665,
+                  "query_to": 730,
+                  "hit_from": 86,
+                  "hit_to": 151,
+                  "align_len": 66,
+                  "gaps": 0,
+                  "qseq": "RFHRGKKSVERIRKFQNRQKNAKIKASDDAISKKSTSVNVSDGKIKRRDKKVSAGRTTVVVENTKE",
+                  "hseq": "RSHQHSPSTSSLQKFQRSGGLFGFAAAAFDKTHSALATFSSDQSIRQRASSSALGRASFIPDSASD",
+                  "midline": "R H+   S   ++KFQ         A+    +  + +   SD  I++R    + GR + + ++  +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 15,
+            "db_len": 9122,
+            "hsp_len": 61,
+            "eff_space": 9019493,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+,
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.14.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "blastdb/c.truncatum/trimmed.source"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_2",
+          "query_title": "DEG20010294",
+          "query_len": 528,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|11",
+                  "accession": "11",
+                  "title": "XP_036587609.1 purine-cytosine permease (NCS1 nucleoside transporter) [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 514,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 415.616,
+                  "score": 1067,
+                  "evalue": 8.1575e-144,
+                  "identity": 215,
+                  "positive": 315,
+                  "query_from": 20,
+                  "query_to": 528,
+                  "hit_from": 8,
+                  "hit_to": 514,
+                  "align_len": 513,
+                  "gaps": 10,
+                  "qseq": "KDLESRAHDAKTPSTNEFYDDVESHGTEELVEAKLSF--LNRIAAGLSAETKGIEPITEDEKTDDSILNAASMWFSANMVLPAYAIGALGPMVFDLNFGQSVFVIIFFNLLGLVSVAFFSVFGAELGLRQMILSRYLVGNIAARIFSFINFIACIGWGIVNTVASSQVLNMVNPGHQCPLWAGCIVIIGATVIVTFFGYGVIHAYEKWAWVPNFAVFLVIIARLARSKKFV-LGEWTSGPTTAGNVLSFGSTVYGFAAGWTTYAADYTVYMPRKTNKYKIFFSLVVGLATPLYFTMILGAAVAMAAIGDPAWKTYYDENSIGGLTFAVLVPNSVHGFGQFCCVLLSLSTIANNVPNMYTIALSVQATWEPLAKVPRVIWTLLGNAAALGIAIPACYYFSTFMNYFMDSIGYYLAIYIAIACSEHFIYRRSFSAYNVDDWDSWERLPIGIAGTAALIVGAFGVALGMCQTYWVGEISRLIGD-YGGDIGFELGLSWAFIVYNIARPFELKYFGR",
+                  "hseq": "SDVES---NGEKKDTARGYVGTDINSQEDFATGTTTYAKLQRLAGKFGVEQRGIERVPEDERTNDSLSMVGTLWCSANMVVSSFAIGALATPVFDLGYVDTALTIIFFNFLGVMPVCFFSTFGPKFGLRQMVLSRFWYGFYGVKLIAIFNVLACLGWSAVNVIVGAQLFHAVN--EDMPGWAGILVIAISTLIICTFGYRIVHAYERYSWIPCTIIFLIVLGVFAHSGKFNNMLPLKSGPAEAGSILSFAASVYGFATGWTSYSADYTCYYPASTPRTRVFIVTFSGLFFTLCFTELLGAAIMTASVLDPTFSDAYSRSGIGGLLSSVLVPR-LGGFGQFCLVILALSIIANNCPNIYSVSLTLQVLSKRTERVPRWVWVFAGTAVYVAISIPGYDRFEAWLENFMLIIAYWLAIYTGISVTEHFVFRRGLSGYNLEDHETPSRLPPGFAAVTAFLIGVMGAVLGMSQTWFTGPIGKLAGGARGGDIGFELGFSFASASYTVLRTVEKRFFKR",
+                  "midline": " D+ES   + +   T   Y   + +  E+      ++  L R+A     E +GIE + EDE+T+DS+    ++W SANMV+ ++AIGAL   VFDL +  +   IIFFN LG++ V FFS FG + GLRQM+LSR+  G    ++ +  N +AC+GW  VN +  +Q+ + VN     P WAG +VI  +T+I+  FGY ++HAYE+++W+P   +FL+++   A S KF  +    SGP  AG++LSF ++VYGFA GWT+Y+ADYT Y P  T + ++F     GL   L FT +LGAA+  A++ DP +   Y  + IGGL  +VLVP  + GFGQFC V+L+LS IANN PN+Y+++L++Q   +   +VPR +W   G A  + I+IP    F  ++  FM  I Y+LAIY  I+ +EHF++RR  S YN++D ++  RLP G A   A ++G  G  LGM QT++ G I +L G   GGDIGFELG S+A   Y + R  E ++F R"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|1",
+                  "accession": "1",
+                  "title": "XP_036577357.1 purine-cytosine permease fcy22 [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 501,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 221.476,
+                  "score": 563,
+                  "evalue": 6.0569e-69,
+                  "identity": 167,
+                  "positive": 260,
+                  "query_from": 20,
+                  "query_to": 528,
+                  "hit_from": 3,
+                  "hit_to": 501,
+                  "align_len": 515,
+                  "gaps": 22,
+                  "qseq": "KDLES-RAHDAKTPSTNEFYDDVESHGTEELVEAKLSFLNRIAAGLSAETKGIEPITEDEKTDDSILNAASMWFSANMVLPAYAIGALGPMVFDLNFGQSVFVIIFFNLLGLVSVAFFSVFGAELGLRQMILSRYLVGNIAARIFSFINFIACIGWGIVNTVASSQVLNMVNPGHQCPLWAGCIVIIG-ATVIVTFFGYGVIHAYEKWAWVPNFAVFLVIIARLARSKKFVLGEWTSGPTTAGNVLSFGSTVYGFAAGWTTYAADYTVYM---PRKTNKYKIFFSLVVGLATPLYFTMILGAAVAMAAIGDPAWKTYYDENSIGGLTFAVLVPNSVHGFGQFCCVLLSLSTIANNVPNMYTIALSVQATWEPLAKVPRVIWTLLGNAAALGIAIPACYYFSTFMNYFMDSIGYYLAIYIAIACSEHFIYRRSFS-AYNVDDWDSWERLPIGIAGTAALIVGAFGVALGMCQTYWVGEISRLIGDYGGDIGFELGLSWAFIVYNIARPFELKYFGR",
+                  "hseq": "DDLETQRGQPAHDKQTTEISGVQHTPATGRNVK---SILRTVLTAGRVEEGGIQPIPIEARTTKKYLNAFTIWCSINTNILGITFGMLGPVSFGLSLRDSALVIIFFNLLSTLAPAFLSTLGPKTGMRQMIQARFSFGYYIVSIPVLLNLATLTGFCVIICVIGGQCISAVSEGNLST--AIGIVLIGVAALLISFCGFNVLHFYEGYAWMPALVAIIIAVGCGGNQLK---NQATPEPATAAQVLSFGGVIASYMIPWACIASDLTTYFDPTPRLAS-YRIFAYSYLGLVVPTILLMTLGSAIGGAMSNIPEWQEGFDTTLVGGVLGAMLGPAG--GFGKFILVVLAFTLLANISGTMYAITLNFQ-TLIPAFRIPRYIFSIVVTAIIIPIAIAAAHDFFLSLENFIALIGYWSASFVGIVVTEHFVFRRANSKSYDVEIWNVPSKLPWGIAAISAAALSFGLVVPCISQVWFTGPIAKTT----GDIGFEIAFCLSAVLYIPLRYAEKRFLGR",
+                  "midline": " DLE+ R   A    T E      +  T   V+   S L  +      E  GI+PI  + +T    LNA ++W S N  +     G LGP+ F L+   S  VIIFFNLL  ++ AF S  G + G+RQMI +R+  G     I   +N     G+ ++  V   Q ++ V+ G+     A  IV+IG A ++++F G+ V+H YE +AW+P     ++ +       K    + T  P TA  VLSFG  +  +   W   A+D T Y    PR  + Y+IF    +GL  P    M LG+A+  A    P W+  +D   +GG+  A+L P    GFG+F  V+L+ + +AN    MY I L+ Q T  P  ++PR I++++  A  + IAI A + F   +  F+  IGY+ A ++ I  +EHF++RR+ S +Y+V+ W+   +LP GIA  +A  +    V   + Q ++ G I++      GDIGFE+    + ++Y   R  E ++ GR"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|12",
+                  "accession": "12",
+                  "title": "XP_036588385.1 purine-cytosine permease fcy22 [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 302,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.132,
+                  "score": 370,
+                  "evalue": 3.43606e-43,
+                  "identity": 102,
+                  "positive": 163,
+                  "query_from": 222,
+                  "query_to": 528,
+                  "hit_from": 2,
+                  "hit_to": 301,
+                  "align_len": 310,
+                  "gaps": 13,
+                  "qseq": "YEKWAWVPNFAVFLVIIARLARSKKFVLGEWTSGPTTAGNVLSFGSTVYGFAAGWTTYAADYTVYM-PRKTNKYKIFFSLVVGLATPLYFTMILGAAVAMAAIGDPAWKTYYDENSIGGLTFAVLVPNSVHGFGQFCCVLLSLSTIANNVPNMYTIALSVQATWEPLAKVPRVIWTLLGNAAALGIAIPACYYFSTFMNYFMDSIGYYLAIYIAIACSEHFIYRR-SFSAYNVDDWDSWERLPIGIAGTAALIVGAFGVAL-GMCQTYWVGEISRLIGDYGGDIGFELGLSWAFIVYNIARPFELKYFGR",
+                  "hseq": "WERWQWLPSL---IAIIIAVGCGGKHLWKQAEVPPPTAAQVLNYGGLMAGYFITFGGIASDFTAYHNPNKTTKLKIFSYIYLGIWTPSVPLLILGAAIGGALNNVPEWKAGWDAYGIGGVMAAMLAPAG--GFGKFLLVVLALTVIGNIATSMYSVALCMQMMLPVFTKVPRFVFIVIALGIMIPMAIRAAESWANSLENFLGLIGYWAGCFDAVIIEELIIFRRMNYDSYEHAAWNVARMLPSGLAAIGASML-SFGLTIPGMDQVWFTGPIARTT----GDIGFELAFAATAVFYVPLRWLEIKLQGR",
+                  "midline": "+E+W W+P+    + II  +    K +  +    P TA  VL++G  + G+   +   A+D+T Y  P KT K KIF  + +G+ TP    +ILGAA+  A    P WK  +D   IGG+  A+L P    GFG+F  V+L+L+ I N   +MY++AL +Q       KVPR ++ ++     + +AI A   ++  +  F+  IGY+   + A+   E  I+RR ++ +Y    W+    LP G+A   A ++ +FG+ + GM Q ++ G I+R      GDIGFEL  +   + Y   R  E+K  GR"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 1.10046,
+                  "identity": 39,
+                  "positive": 69,
+                  "query_from": 114,
+                  "query_to": 278,
+                  "hit_from": 128,
+                  "hit_to": 265,
+                  "align_len": 169,
+                  "gaps": 35,
+                  "qseq": "NFGQSVFVIIFFNLLGLVSVAFFSVFGAELGLRQMILSRYLVGNIAARIFSFINFIACIGWGIVNTV--ASSQVLNMVNPGHQCPLWAGCI--VIIGATVIVTFFGYGVIHAYEKWAWVPNFAVFLVIIARLARSKKFVLGEWTSGPTTAGNVLSFGSTVYGFAAGWTT",
+                  "hseq": "GFGKFLLVVLALTVIGNIATSMYSV---ALCMQMML-------PVFTKVPRFVFIVIALGIMIPMAIRAAESWANSLENFLGLIGYWAGCFDAVIIEELIIFRRMNY---DSYEHAAWN---------VARMLPSGLAAIG---------ASMLSFGLTIPGMDQVWFT",
+                  "midline": " FG+ + V++   ++G ++ + +SV    L ++ M+        +  ++  F+  +  +G  I   +  A S   ++ N       WAGC   VII   +I     Y    +YE  AW          +AR+  S    +G          ++LSFG T+ G    W T"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|8",
+                  "accession": "8",
+                  "title": "XP_036582786.1 protein ssh-4 [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 507,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.5722,
+                  "score": 70,
+                  "evalue": 0.000884114,
+                  "identity": 20,
+                  "positive": 28,
+                  "query_from": 102,
+                  "query_to": 144,
+                  "hit_from": 278,
+                  "hit_to": 326,
+                  "align_len": 49,
+                  "gaps": 6,
+                  "qseq": "AIGALGPMVFDLNFGQSVFVIIFFNLL--GLV----SVAFFSVFGAELG",
+                  "hseq": "AVGANGPCIIHVNFGQAGFVFIEANVKKWGLAPMTGSLAPPPPYGSEQG",
+                  "midline": "A+GA GP +  +NFGQ+ FV I  N+   GL     S+A    +G+E G"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|10",
+                  "accession": "10",
+                  "title": "XP_036586924.1 uncharacterized protein CTRU02_02696 [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.00230947,
+                  "identity": 13,
+                  "positive": 21,
+                  "query_from": 442,
+                  "query_to": 481,
+                  "hit_from": 232,
+                  "hit_to": 271,
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "IYRRSFSAYNVDDWDSWERLPIGIAGTAALIVGAFGVALG",
+                  "hseq": "LWKESSEAMSLDRWSSWERRLKELQGQQGVVQDAATTALG",
+                  "midline": "+++ S  A ++D W SWER    + G   ++  A   ALG"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|4",
+                  "accession": "4",
+                  "title": "XP_036578344.1 ulp1 protease family protein [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 1038,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 0.00378288,
+                  "identity": 13,
+                  "positive": 28,
+                  "query_from": 6,
+                  "query_to": 50,
+                  "hit_from": 910,
+                  "hit_to": 954,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "EMSLNGTQYLKYELKDLESRAHDAKTPSTNEFYDDVESHGTEELV",
+                  "hseq": "DRSLSPSQQILSELRDSPSKSNQAQRSASNEAKSHIQSHQRKEKI",
+                  "midline": "+ SL+ +Q +  EL+D  S+++ A+  ++NE    ++SH  +E +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 20.7866,
+                  "score": 42,
+                  "evalue": 2.05478,
+                  "identity": 9,
+                  "positive": 15,
+                  "query_from": 238,
+                  "query_to": 264,
+                  "hit_from": 862,
+                  "hit_to": 888,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "IARLARSKKFVLGEWTSGPTTAGNVLS",
+                  "hseq": "LARLTSERRQTSNGLETGPTTSGGLRS",
+                  "midline": "+ARL   ++       +GPTT+G + S"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|2",
+                  "accession": "2",
+                  "title": "XP_036577568.1 uncharacterized protein CTRU02_12555 [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 90,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.7202,
+                  "score": 60,
+                  "evalue": 0.00462012,
+                  "identity": 16,
+                  "positive": 25,
+                  "query_from": 429,
+                  "query_to": 480,
+                  "hit_from": 7,
+                  "hit_to": 58,
+                  "align_len": 52,
+                  "gaps": 0,
+                  "qseq": "LAIYIAIACSEHFIYRRSFSAYNVDDWDSWERLPIGIAGTAALIVGAFGVAL",
+                  "hseq": "LAIIIPPLCTQVWLYRPKWEALNITRAPLQSAVAVRYAATTALSLGGVSVCL",
+                  "midline": "LAI I   C++ ++YR  + A N+        + +  A T AL +G   V L"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|5",
+                  "accession": "5",
+                  "title": "XP_036578456.1 mitochondrial carrier protein [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 294,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.8758,
+                  "score": 63,
+                  "evalue": 0.00576759,
+                  "identity": 20,
+                  "positive": 29,
+                  "query_from": 372,
+                  "query_to": 438,
+                  "hit_from": 43,
+                  "hit_to": 109,
+                  "align_len": 67,
+                  "gaps": 0,
+                  "qseq": "NMYTIALSVQATWEPLAKVPRVIWTLLGNAAALGIAIPACYYFSTFMNYFMDSIGYYLAIYIAIACS",
+                  "hseq": "NALNLVRTIWAKERPLSFYKGTLAPLLGVGACVSIQFGAFQFFRRQLEYFHDSPLSLLDFYIAGAAA",
+                  "midline": "N   +  ++ A   PL+     +  LLG  A + I   A  +F   + YF DS    L  YIA A +"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|3",
+                  "accession": "3",
+                  "title": "XP_036578123.1 Allantoin permease [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 584,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.4906,
+                  "score": 62,
+                  "evalue": 0.00853669,
+                  "identity": 36,
+                  "positive": 68,
+                  "query_from": 21,
+                  "query_to": 188,
+                  "hit_from": 5,
+                  "hit_to": 163,
+                  "align_len": 169,
+                  "gaps": 11,
+                  "qseq": "DLESRAHDAKTPSTNEFYDDVESHGTEELVEAKLSFLNRIAAGLSA-ETKGIEPITEDEKTDDSILNAASMWFSANMVLPAYAIGALGPMVFDLNFGQSVFVIIFFNLLGLVSVAFFSVFGAELGLRQMILSRYLVGNIAARIFSFINFIACIGWGIVNTVASSQVLNM",
+                  "hseq": "SMPSRAELAAPFQSKEAFKD--------WIKASETVDGQTQIGDSRWSNKDLEPTPPEQRTW-TWYNLPLYWFSNMFGTTGWNV-ASSLVAVGLTWQQAFISCVLGSLISAIIVTGMARPGVMYHLGYPVLARSVMGMYGSYFFVFIRAIVCIIWYGIQTYYGANLLSV",
+                  "midline": " + SRA  A    + E + D         ++A  +   +   G S    K +EP   +++T  +  N    WFS       + + A   +   L + Q+    +  +L+  + V   +  G    L   +L+R ++G   +  F FI  I CI W  + T   + +L++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 7.70137,
+                  "identity": 15,
+                  "positive": 23,
+                  "query_from": 395,
+                  "query_to": 445,
+                  "hit_from": 406,
+                  "hit_to": 442,
+                  "align_len": 51,
+                  "gaps": 14,
+                  "qseq": "WTLLGNAAALGIAIPACYYFSTFMNYFMDSIGYYLAIYIAIACSEHFIYRR",
+                  "hseq": "WKLIANA-------------STFLS-FLGSYNIFMAPLCAIIIFDYIIVRR",
+                  "midline": "W L+ NA             STF++ F+ S   ++A   AI   ++ I RR"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|7",
+                  "accession": "7",
+                  "title": "XP_036582683.1 uncharacterized protein CTRU02_07236 [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 0.00997061,
+                  "identity": 16,
+                  "positive": 23,
+                  "query_from": 320,
+                  "query_to": 363,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 48,
+                  "gaps": 4,
+                  "qseq": "MAAIGDPAWKTYYDEN----SIGGLTFAVLVPNSVHGFGQFCCVLLSL",
+                  "hseq": "MASIANHTWLGAVSDSRLRGSVGVTAGSTLLPNSSTAKGWLACVFLSL",
+                  "midline": "MA+I +  W     ++    S+G    + L+PNS    G   CV LSL"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|13",
+                  "accession": "13",
+                  "title": "XP_036588398.1 Developmental regulator flbA [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 720,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 0.0111165,
+                  "identity": 25,
+                  "positive": 44,
+                  "query_from": 14,
+                  "query_to": 92,
+                  "hit_from": 478,
+                  "hit_to": 563,
+                  "align_len": 88,
+                  "gaps": 11,
+                  "qseq": "YLKYELKD--LESRAHDAKTPSTNEFYDDVESHGTEELVEAKLSFLNRIAA-GLSAETKGIEP----ITEDEKTD--DSILNAASMWF",
+                  "hseq": "FVEYDLMEPIVQDRAHMAQFPSNNLFQ--PTKHAIYQMTAKGKDLLNGLSARGRTSESEAVVPSRNAIARDSNTQRLDKILNDAALRL",
+                  "midline": "+++Y+L +  ++ RAH A+ PS N F      H   ++       LN ++A G ++E++ + P    I  D  T   D ILN A++  "
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|14",
+                  "accession": "14",
+                  "title": "XP_036588424.1 ABC multidrug transporter [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 1285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 0.0113842,
+                  "identity": 14,
+                  "positive": 19,
+                  "query_from": 424,
+                  "query_to": 461,
+                  "hit_from": 724,
+                  "hit_to": 761,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "SIGYYLAIYIAIACSEHFIYRRSFSAYNVDDWDSWERL",
+                  "hseq": "NIAYYLGIYAAITVAESVVYALVFLVFENGAWHAARRL",
+                  "midline": "+I YYL IY AI  +E  +Y   F  +    W +  RL"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|6",
+                  "accession": "6",
+                  "title": "XP_036578741.1 uncharacterized protein CTRU02_11332 [Colletotrichum truncatum]"
+                }
+              ],
+              "len": 624,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.8606,
+                  "score": 37,
+                  "evalue": 9.03063,
+                  "identity": 7,
+                  "positive": 10,
+                  "query_from": 481,
+                  "query_to": 496,
+                  "hit_from": 254,
+                  "hit_to": 269,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "GMCQTYWVGEISRLIG",
+                  "hseq": "GFCQSYTLYRISTLLN",
+                  "midline": "G CQ+Y +  IS L+ "
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 15,
+            "db_len": 9122,
+            "hsp_len": 55,
+            "eff_space": 3924481,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

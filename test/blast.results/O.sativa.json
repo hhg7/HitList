@@ -1,0 +1,813 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.14.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "blastdb/o.sativa/trimmed.source"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "DEG20010001",
+          "query_len": 1160,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|16",
+                  "accession": "16",
+                  "title": "XP_025879209.1 uncharacterized protein LOC9266913 isoform X1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 36.965,
+                  "score": 84,
+                  "evalue": 0.000139254,
+                  "identity": 27,
+                  "positive": 42,
+                  "query_from": 333,
+                  "query_to": 429,
+                  "hit_from": 344,
+                  "hit_to": 431,
+                  "align_len": 97,
+                  "gaps": 9,
+                  "qseq": "PLQNQTYDIADKSGLKGISTMDVVNRITGKEFQRAFTKSSEYYLESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGFD",
+                  "hseq": "PLDNCIYDMIDAQGPKGITLIELGKRLGGK-----YNNSKELH----DRVSSMHDRFNLTVEVEVVGKSKQGRVWTSKNFSLYNATLRNCDVPDDHD",
+                  "midline": "PL N  YD+ D  G KGI+ +++  R+ GK     +  S E +    D+       + L    +  GK K  R++T++NF           VP   D"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|15",
+                  "accession": "15",
+                  "title": "XP_025879208.1 uncharacterized protein LOC9266913 isoform X1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 36.965,
+                  "score": 84,
+                  "evalue": 0.000139254,
+                  "identity": 27,
+                  "positive": 42,
+                  "query_from": 333,
+                  "query_to": 429,
+                  "hit_from": 344,
+                  "hit_to": 431,
+                  "align_len": 97,
+                  "gaps": 9,
+                  "qseq": "PLQNQTYDIADKSGLKGISTMDVVNRITGKEFQRAFTKSSEYYLESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGFD",
+                  "hseq": "PLDNCIYDMIDAQGPKGITLIELGKRLGGK-----YNNSKELH----DRVSSMHDRFNLTVEVEVVGKSKQGRVWTSKNFSLYNATLRNCDVPDDHD",
+                  "midline": "PL N  YD+ D  G KGI+ +++  R+ GK     +  S E +    D+       + L    +  GK K  R++T++NF           VP   D"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|14",
+                  "accession": "14",
+                  "title": "XP_025879207.1 uncharacterized protein LOC9266913 isoform X1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 36.965,
+                  "score": 84,
+                  "evalue": 0.000139254,
+                  "identity": 27,
+                  "positive": 42,
+                  "query_from": 333,
+                  "query_to": 429,
+                  "hit_from": 344,
+                  "hit_to": 431,
+                  "align_len": 97,
+                  "gaps": 9,
+                  "qseq": "PLQNQTYDIADKSGLKGISTMDVVNRITGKEFQRAFTKSSEYYLESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGFD",
+                  "hseq": "PLDNCIYDMIDAQGPKGITLIELGKRLGGK-----YNNSKELH----DRVSSMHDRFNLTVEVEVVGKSKQGRVWTSKNFSLYNATLRNCDVPDDHD",
+                  "midline": "PL N  YD+ D  G KGI+ +++  R+ GK     +  S E +    D+       + L    +  GK K  R++T++NF           VP   D"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|13",
+                  "accession": "13",
+                  "title": "XP_025879206.1 uncharacterized protein LOC9266913 isoform X1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 36.965,
+                  "score": 84,
+                  "evalue": 0.000139254,
+                  "identity": 27,
+                  "positive": 42,
+                  "query_from": 333,
+                  "query_to": 429,
+                  "hit_from": 344,
+                  "hit_to": 431,
+                  "align_len": 97,
+                  "gaps": 9,
+                  "qseq": "PLQNQTYDIADKSGLKGISTMDVVNRITGKEFQRAFTKSSEYYLESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGFD",
+                  "hseq": "PLDNCIYDMIDAQGPKGITLIELGKRLGGK-----YNNSKELH----DRVSSMHDRFNLTVEVEVVGKSKQGRVWTSKNFSLYNATLRNCDVPDDHD",
+                  "midline": "PL N  YD+ D  G KGI+ +++  R+ GK     +  S E +    D+       + L    +  GK K  R++T++NF           VP   D"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|12",
+                  "accession": "12",
+                  "title": "XP_025879205.1 uncharacterized protein LOC9266913 isoform X1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 36.965,
+                  "score": 84,
+                  "evalue": 0.000139254,
+                  "identity": 27,
+                  "positive": 42,
+                  "query_from": 333,
+                  "query_to": 429,
+                  "hit_from": 344,
+                  "hit_to": 431,
+                  "align_len": 97,
+                  "gaps": 9,
+                  "qseq": "PLQNQTYDIADKSGLKGISTMDVVNRITGKEFQRAFTKSSEYYLESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGFD",
+                  "hseq": "PLDNCIYDMIDAQGPKGITLIELGKRLGGK-----YNNSKELH----DRVSSMHDRFNLTVEVEVVGKSKQGRVWTSKNFSLYNATLRNCDVPDDHD",
+                  "midline": "PL N  YD+ D  G KGI+ +++  R+ GK     +  S E +    D+       + L    +  GK K  R++T++NF           VP   D"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|11",
+                  "accession": "11",
+                  "title": "XP_025879204.1 uncharacterized protein LOC9266913 isoform X1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 36.965,
+                  "score": 84,
+                  "evalue": 0.000139254,
+                  "identity": 27,
+                  "positive": 42,
+                  "query_from": 333,
+                  "query_to": 429,
+                  "hit_from": 344,
+                  "hit_to": 431,
+                  "align_len": 97,
+                  "gaps": 9,
+                  "qseq": "PLQNQTYDIADKSGLKGISTMDVVNRITGKEFQRAFTKSSEYYLESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGFD",
+                  "hseq": "PLDNCIYDMIDAQGPKGITLIELGKRLGGK-----YNNSKELH----DRVSSMHDRFNLTVEVEVVGKSKQGRVWTSKNFSLYNATLRNCDVPDDHD",
+                  "midline": "PL N  YD+ D  G KGI+ +++  R+ GK     +  S E +    D+       + L    +  GK K  R++T++NF           VP   D"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|10",
+                  "accession": "10",
+                  "title": "XP_025879203.1 uncharacterized protein LOC9266913 isoform X1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 36.965,
+                  "score": 84,
+                  "evalue": 0.000139254,
+                  "identity": 27,
+                  "positive": 42,
+                  "query_from": 333,
+                  "query_to": 429,
+                  "hit_from": 344,
+                  "hit_to": 431,
+                  "align_len": 97,
+                  "gaps": 9,
+                  "qseq": "PLQNQTYDIADKSGLKGISTMDVVNRITGKEFQRAFTKSSEYYLESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGFD",
+                  "hseq": "PLDNCIYDMIDAQGPKGITLIELGKRLGGK-----YNNSKELH----DRVSSMHDRFNLTVEVEVVGKSKQGRVWTSKNFSLYNATLRNCDVPDDHD",
+                  "midline": "PL N  YD+ D  G KGI+ +++  R+ GK     +  S E +    D+       + L    +  GK K  R++T++NF           VP   D"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|3",
+                  "accession": "3",
+                  "title": "XP_015615751.1 THO complex subunit 2 isoform X1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 1779,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.2686,
+                  "score": 77,
+                  "evalue": 0.00112711,
+                  "identity": 18,
+                  "positive": 27,
+                  "query_from": 10,
+                  "query_to": 63,
+                  "hit_from": 178,
+                  "hit_to": 230,
+                  "align_len": 54,
+                  "gaps": 1,
+                  "qseq": "LVQIVSDKIASNKGKITLNQLWDISGKYFDLSDKKVKQFVLSCVILKKDIEVYC",
+                  "hseq": "LCQIGSDLACQNSSSVTMSIIKSLIG-HFDLDPNRVFDIVLECFELYPDNTIFC",
+                  "midline": "L QI SD    N   +T++ +  + G +FDL   +V   VL C  L  D  ++C"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 6.50824,
+                  "identity": 17,
+                  "positive": 27,
+                  "query_from": 9,
+                  "query_to": 64,
+                  "hit_from": 77,
+                  "hit_to": 126,
+                  "align_len": 56,
+                  "gaps": 6,
+                  "qseq": "ELVQIVSDKIASNKGKITLNQLWDISGKYFDLSDKKVKQFVLSCVILKKDIEVYCD",
+                  "hseq": "EVGSVLADIIAH------LGQDVTISGEYRSRLVKMTKSFVESSLIAPRLLQERCE",
+                  "midline": "E+  +++D IA       L Q   ISG+Y     K  K FV S +I  + ++  C+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|4",
+                  "accession": "4",
+                  "title": "XP_015615760.1 THO complex subunit 2 isoform X2 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 1744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.2686,
+                  "score": 77,
+                  "evalue": 0.00114467,
+                  "identity": 18,
+                  "positive": 27,
+                  "query_from": 10,
+                  "query_to": 63,
+                  "hit_from": 178,
+                  "hit_to": 230,
+                  "align_len": 54,
+                  "gaps": 1,
+                  "qseq": "LVQIVSDKIASNKGKITLNQLWDISGKYFDLSDKKVKQFVLSCVILKKDIEVYC",
+                  "hseq": "LCQIGSDLACQNSSSVTMSIIKSLIG-HFDLDPNRVFDIVLECFELYPDNTIFC",
+                  "midline": "L QI SD    N   +T++ +  + G +FDL   +V   VL C  L  D  ++C"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 6.95778,
+                  "identity": 17,
+                  "positive": 27,
+                  "query_from": 9,
+                  "query_to": 64,
+                  "hit_from": 77,
+                  "hit_to": 126,
+                  "align_len": 56,
+                  "gaps": 6,
+                  "qseq": "ELVQIVSDKIASNKGKITLNQLWDISGKYFDLSDKKVKQFVLSCVILKKDIEVYCD",
+                  "hseq": "EVGSVLADIIAH------LGQDVTISGEYRSRLVKMTKSFVESSLIAPRLLQERCE",
+                  "midline": "E+  +++D IA       L Q   ISG+Y     K  K FV S +I  + ++  C+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|1",
+                  "accession": "1",
+                  "title": "XP_015611507.1 E3 ubiquitin-protein ligase UPL1 isoform X2 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 3715,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.113,
+                  "score": 74,
+                  "evalue": 0.0025343,
+                  "identity": 17,
+                  "positive": 40,
+                  "query_from": 377,
+                  "query_to": 453,
+                  "hit_from": 602,
+                  "hit_to": 676,
+                  "align_len": 77,
+                  "gaps": 2,
+                  "qseq": "ESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGFDELGKSRTDLKTLNEDNFVALNNTV",
+                  "hseq": "QCLDALCLNSSGLQLVK--DHNALRCFVKIFTSRSYLKALGGDTAGALSLGLDELLRHQSSLRSSGVDMLIEILNTI",
+                  "midline": "+ +D    N+ G +L +  D    + F ++FT++++ K    +   ++  G DEL + ++ L++   D  + + NT+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 1.59723,
+                  "identity": 11,
+                  "positive": 19,
+                  "query_from": 393,
+                  "query_to": 428,
+                  "hit_from": 3326,
+                  "hit_to": 3361,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "RIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGF",
+                  "hseq": "RLIDFDNKRAYFRSRIRQQHDQHLSAPLRISVRRAY",
+                  "midline": "R+ DF+ K+ +FR    Q   +  +A   ISV + +"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|0",
+                  "accession": "0",
+                  "title": "XP_015611506.1 E3 ubiquitin-protein ligase UPL1 isoform X1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 3716,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.113,
+                  "score": 74,
+                  "evalue": 0.00257734,
+                  "identity": 17,
+                  "positive": 40,
+                  "query_from": 377,
+                  "query_to": 453,
+                  "hit_from": 603,
+                  "hit_to": 677,
+                  "align_len": 77,
+                  "gaps": 2,
+                  "qseq": "ESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGFDELGKSRTDLKTLNEDNFVALNNTV",
+                  "hseq": "QCLDALCLNSSGLQLVK--DHNALRCFVKIFTSRSYLKALGGDTAGALSLGLDELLRHQSSLRSSGVDMLIEILNTI",
+                  "midline": "+ +D    N+ G +L +  D    + F ++FT++++ K    +   ++  G DEL + ++ L++   D  + + NT+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 1.61073,
+                  "identity": 11,
+                  "positive": 19,
+                  "query_from": 393,
+                  "query_to": 428,
+                  "hit_from": 3327,
+                  "hit_to": 3362,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "RIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGF",
+                  "hseq": "RLIDFDNKRAYFRSRIRQQHDQHLSAPLRISVRRAY",
+                  "midline": "R+ DF+ K+ +FR    Q   +  +A   ISV + +"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|2",
+                  "accession": "2",
+                  "title": "XP_015611508.1 E3 ubiquitin-protein ligase UPL1 isoform X3 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 3680,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.113,
+                  "score": 74,
+                  "evalue": 0.00259834,
+                  "identity": 17,
+                  "positive": 40,
+                  "query_from": 377,
+                  "query_to": 453,
+                  "hit_from": 603,
+                  "hit_to": 677,
+                  "align_len": 77,
+                  "gaps": 2,
+                  "qseq": "ESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGFDELGKSRTDLKTLNEDNFVALNNTV",
+                  "hseq": "QCLDALCLNSSGLQLVK--DHNALRCFVKIFTSRSYLKALGGDTAGALSLGLDELLRHQSSLRSSGVDMLIEILNTI",
+                  "midline": "+ +D    N+ G +L +  D    + F ++FT++++ K    +   ++  G DEL + ++ L++   D  + + NT+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 1.62405,
+                  "identity": 11,
+                  "positive": 19,
+                  "query_from": 393,
+                  "query_to": 428,
+                  "hit_from": 3291,
+                  "hit_to": 3326,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "RIYDFEGKKKFFRLFTAQNFQKLTNAEDEISVPKGF",
+                  "hseq": "RLIDFDNKRAYFRSRIRQQHDQHLSAPLRISVRRAY",
+                  "midline": "R+ DF+ K+ +FR    Q   +  +A   ISV + +"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|6",
+                  "accession": "6",
+                  "title": "XP_015625518.1 uncharacterized protein LOC4330065 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 1837,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 31.9574,
+                  "score": 71,
+                  "evalue": 0.00519885,
+                  "identity": 30,
+                  "positive": 51,
+                  "query_from": 333,
+                  "query_to": 438,
+                  "hit_from": 347,
+                  "hit_to": 458,
+                  "align_len": 115,
+                  "gaps": 12,
+                  "qseq": "PLQNQTYDIADKSGLKGISTMDVVNRITGKEFQRAFTKSS----EYYLESVDKQKENTGGYRLFRIYDFEGKKKFFRLFTAQNFQKLTNAEDEIS-----VPKGFDELGKSRTDL",
+                  "hseq": "PLENCIYDMINAQGPKGITLVELGKRLGHNNSKRLHKRVSSMLKKYNLTWEAEVQDKTSQYRVWTSKNFSHYKAGAAL---HNLEALPDDHEKCSDLWSLVPSKGSESPISRVDL",
+                  "midline": "PL+N  YD+ +  G KGI+ +++  R+     +R   + S    +Y L    + ++ T  YR++   +F   K    L    N + L +  ++ S     VP    E   SR DL"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 0.133633,
+                  "identity": 14,
+                  "positive": 31,
+                  "query_from": 1079,
+                  "query_to": 1136,
+                  "hit_from": 1733,
+                  "hit_to": 1785,
+                  "align_len": 58,
+                  "gaps": 5,
+                  "qseq": "WVNGSGSIRPNIWKQVVTMVVNEIIFHPGITLSRLQSRCREVLSLHEISEICKWLLER",
+                  "hseq": "WINGDGSMNNTVYEGLSRRIIGYTMQYPGVVEEDIIHR-MDVLN----PQTCRTLLEK",
+                  "midline": "W+NG GS+   +++ +   ++   + +PG+    +  R  +VL+     + C+ LLE+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 24.2534,
+                  "score": 51,
+                  "evalue": 1.08153,
+                  "identity": 15,
+                  "positive": 24,
+                  "query_from": 117,
+                  "query_to": 160,
+                  "hit_from": 1569,
+                  "hit_to": 1609,
+                  "align_len": 44,
+                  "gaps": 3,
+                  "qseq": "VAKSGEKGINTMDLAQVTGQDPRSVTGRIKKINHLLTSSQLIYK",
+                  "hseq": "VHKAGEQGVNLREMSQAL--DPLGIQF-VDLIVHTLKRFQLVIK",
+                  "midline": "V K+GE+G+N  +++Q    DP  +   +  I H L   QL+ K"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 21.557,
+                  "score": 44,
+                  "evalue": 6.85308,
+                  "identity": 8,
+                  "positive": 12,
+                  "query_from": 141,
+                  "query_to": 157,
+                  "hit_from": 726,
+                  "hit_to": 742,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "VTGRIKKINHLLTSSQL",
+                  "hseq": "VVGSAKKIDHMITKCRL",
+                  "midline": "V G  KKI+H++T  +L"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|8",
+                  "accession": "8",
+                  "title": "XP_015634606.1 vesicle-associated protein 1-3 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 244,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 0.00765714,
+                  "identity": 20,
+                  "positive": 33,
+                  "query_from": 471,
+                  "query_to": 525,
+                  "hit_from": 6,
+                  "hit_to": 65,
+                  "align_len": 61,
+                  "gaps": 7,
+                  "qseq": "LKIPPNSKKTPNKNKRKR----QVKNSTNASVAGNI--SNPKRIKLEQHVSTAQEPKSAED",
+                  "hseq": "LRVHPSELKIPYEYKRKRSCCMQLTNKTNQYVAFKVKTTNPRKYSV-RHACGILPPRSSCD",
+                  "midline": "L++ P+  K P + KRKR    Q+ N TN  VA  +  +NP++  + +H      P+S+ D"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|9",
+                  "accession": "9",
+                  "title": "XP_015646771.1 acyl carrier protein 1, mitochondrial [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.6462,
+                  "score": 65,
+                  "evalue": 0.00896184,
+                  "identity": 24,
+                  "positive": 44,
+                  "query_from": 882,
+                  "query_to": 973,
+                  "hit_from": 34,
+                  "hit_to": 127,
+                  "align_len": 94,
+                  "gaps": 2,
+                  "qseq": "SLKKTYTRKISASTKDLSKSQSDDYIRTVIRSILIESPSTTRNEIEALKNVGNESIDNVIMDMAKEKQIYLHGSKLEC--TDTLPDILENRGNY",
+                  "hseq": "ALARWLARPMSSHDAHLTRDEVVDRLLDVLKCHPKVDPSKVSPEAHFEKDLGLDSLDTVEVVMAIEEEFKLEIPDQEADKIDSLPLAIEYVANH",
+                  "midline": "+L +   R +S+    L++ +  D +  V++      PS    E    K++G +S+D V + MA E++  L     E    D+LP  +E   N+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 17,
+            "db_len": 21695,
+            "hsp_len": 67,
+            "eff_space": 22467708,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+,
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.14.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "blastdb/o.sativa/trimmed.source"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_2",
+          "query_title": "DEG20010294",
+          "query_len": 528,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|5",
+                  "accession": "5",
+                  "title": "XP_015622998.1 probable 4-hydroxy-tetrahydrodipicolinate reductase 1, chloroplastic [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 343,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 34.2686,
+                  "score": 77,
+                  "evalue": 0.000283598,
+                  "identity": 42,
+                  "positive": 73,
+                  "query_from": 363,
+                  "query_to": 526,
+                  "hit_from": 129,
+                  "hit_to": 295,
+                  "align_len": 173,
+                  "gaps": 15,
+                  "qseq": "LSTIANNVPNM----YTIALSVQATWEPLAKV--PRVIWTLLGNAAALGIAIPACYYFSTFMNYFMDSIGYYLAIYIAIACSEHFIYRRSFSAYNVDDWDSWERLPIGIAGTAALIVGAF---GVALGMCQTYWVGEISRLIGDYGGDIGFELGLSWAFIVYNIARPFELKYF",
+                  "hseq": "LPSIAKDYPDMIVVDYTVPDAVNANAELYCKLGLPFVMGTTGGNRQLLHKTVEDANVYAVISPQMGKQVVAFLAAMEIMA--EQF--PGAFSGYKLEVMESHQATKLDISGTAKAVISCFQKLGVSFNLNEVKQVRDPQEQLTLVG--VPEEHLSGHAFHMYHLTSPDETVSF",
+                  "midline": "L +IA + P+M    YT+  +V A  E   K+  P V+ T  GN   L   +     ++         +  +LA    +A  E F    +FS Y ++  +S +   + I+GTA  ++  F   GV+  + +   V +    +   G  +  E     AF +Y++  P E   F"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|7",
+                  "accession": "7",
+                  "title": "XP_015634518.1 acyl transferase 15-like [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 425,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 0.00336277,
+                  "identity": 19,
+                  "positive": 28,
+                  "query_from": 55,
+                  "query_to": 119,
+                  "hit_from": 225,
+                  "hit_to": 283,
+                  "align_len": 65,
+                  "gaps": 6,
+                  "qseq": "SFLNRIAAGLSAETKGIEPITEDEKTDDSILNAASMWFSANMVLPAYAIGALGPMVFDLNFGQSV",
+                  "hseq": "SFVNRVKAEFGSRHAGDRPCSVFEAV------TAAMWQCRTRAINGHGGGALAPLVFAANVRKHV",
+                  "midline": "SF+NR+ A   +   G  P +  E         A+MW      +  +  GAL P+VF  N  + V"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|2",
+                  "accession": "2",
+                  "title": "XP_015611508.1 E3 ubiquitin-protein ligase UPL1 isoform X3 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 3680,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 9.34223,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 65,
+                  "query_to": 91,
+                  "hit_from": 346,
+                  "hit_to": 371,
+                  "align_len": 27,
+                  "gaps": 1,
+                  "qseq": "SAETKGIEPITEDEKTDDSILNAASMW",
+                  "hseq": "SGGHRGILP-SLMQKAVDSIINGSTKW",
+                  "midline": "S   +GI P +  +K  DSI+N ++ W"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|1",
+                  "accession": "1",
+                  "title": "XP_015611507.1 E3 ubiquitin-protein ligase UPL1 isoform X2 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 3715,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 9.34339,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 65,
+                  "query_to": 91,
+                  "hit_from": 345,
+                  "hit_to": 370,
+                  "align_len": 27,
+                  "gaps": 1,
+                  "qseq": "SAETKGIEPITEDEKTDDSILNAASMW",
+                  "hseq": "SGGHRGILP-SLMQKAVDSIINGSTKW",
+                  "midline": "S   +GI P +  +K  DSI+N ++ W"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|0",
+                  "accession": "0",
+                  "title": "XP_015611506.1 E3 ubiquitin-protein ligase UPL1 isoform X1 [Oryza sativa Japonica Group]"
+                }
+              ],
+              "len": 3716,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 9.34342,
+                  "identity": 10,
+                  "positive": 16,
+                  "query_from": 65,
+                  "query_to": 91,
+                  "hit_from": 346,
+                  "hit_to": 371,
+                  "align_len": 27,
+                  "gaps": 1,
+                  "qseq": "SAETKGIEPITEDEKTDDSILNAASMW",
+                  "hseq": "SGGHRGILP-SLMQKAVDSIINGSTKW",
+                  "midline": "S   +GI P +  +K  DSI+N ++ W"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 17,
+            "db_len": 21695,
+            "hsp_len": 61,
+            "eff_space": 9647286,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}

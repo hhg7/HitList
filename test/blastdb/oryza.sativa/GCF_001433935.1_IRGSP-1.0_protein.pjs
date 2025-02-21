@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "GCF_001433935.1_IRGSP-1.0_protein",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "rice",
+  "number-of-letters": 20135984,
+  "number-of-sequences": 42580,
+  "last-updated": "2023-07-19T18:05:00",
+  "number-of-volumes": 1,
+  "bytes-total": 27583380,
+  "bytes-to-cache": 20519317,
+  "files": [
+    "GCF_001433935.1_IRGSP-1.0_protein.pdb",
+    "GCF_001433935.1_IRGSP-1.0_protein.phr",
+    "GCF_001433935.1_IRGSP-1.0_protein.pin",
+    "GCF_001433935.1_IRGSP-1.0_protein.pot",
+    "GCF_001433935.1_IRGSP-1.0_protein.psq",
+    "GCF_001433935.1_IRGSP-1.0_protein.ptf",
+    "GCF_001433935.1_IRGSP-1.0_protein.pto"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.2",
+  "dbname": "GCF_014235925.1_CTRU02_protein",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "GCF_014235925.1_CTRU02_protein.faa",
+  "number-of-letters": 7514930,
+  "number-of-sequences": 15888,
+  "last-updated": "2024-05-18T09:26:00",
+  "number-of-volumes": 1,
+  "bytes-total": 10466819,
+  "bytes-to-cache": 7658067,
+  "files": [
+    "GCF_014235925.1_CTRU02_protein.pdb",
+    "GCF_014235925.1_CTRU02_protein.phd",
+    "GCF_014235925.1_CTRU02_protein.phi",
+    "GCF_014235925.1_CTRU02_protein.phr",
+    "GCF_014235925.1_CTRU02_protein.pin",
+    "GCF_014235925.1_CTRU02_protein.pog",
+    "GCF_014235925.1_CTRU02_protein.pot",
+    "GCF_014235925.1_CTRU02_protein.psq",
+    "GCF_014235925.1_CTRU02_protein.ptf",
+    "GCF_014235925.1_CTRU02_protein.pto"
+  ]
+}

@@ -1,0 +1,638 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.14.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "blastdb/b.graminis/trimmed.source"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1",
+          "query_title": "DEG20010001",
+          "query_len": 1160,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|7",
+                  "accession": "7",
+                  "title": "VDB89124.1 | transcript=BGT96224V316_LOCUS4879_t1 | gene=BGT96224V316_LOCUS4879 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026990:6556782-6561229(-) | protein_length=1449 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 1449,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 33.4982,
+                  "score": 75,
+                  "evalue": 0.000635897,
+                  "identity": 27,
+                  "positive": 40,
+                  "query_from": 764,
+                  "query_to": 840,
+                  "hit_from": 610,
+                  "hit_to": 690,
+                  "align_len": 82,
+                  "gaps": 6,
+                  "qseq": "KITKLFPNNSLDNLKKKWTARRV-----RMGHSGWRAYVDKWKKMLVLAIKSEKISLRDVEELDLIKLLDIWTSFDEKEIKR",
+                  "hseq": "EVIKLFLGNSRFNPSRKIKGEAYYDIAKRRGGPNCQKEVELFKKAL-YAYKKSHNHLRDMDDVSGIGLTDLETSFSSRKIKR",
+                  "midline": "++ KLF  NS  N  +K           R G    +  V+ +KK L  A K     LRD++++  I L D+ TSF  ++IKR"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 23.8682,
+                  "score": 50,
+                  "evalue": 0.608297,
+                  "identity": 39,
+                  "positive": 73,
+                  "query_from": 107,
+                  "query_to": 272,
+                  "hit_from": 466,
+                  "hit_to": 645,
+                  "align_len": 181,
+                  "gaps": 16,
+                  "qseq": "GNSAFELLLEVAKSGEKGINTMDLAQVT-----GQDPRSVTGRIKKINHLL-TSSQLIYKGHVVKQLKLKKFSHDGVDSNPYINIRDHLATIVEVVKRSKNGIRQIIDLKREL-KFDKEKR--------LSKAFIAAIAWLDEKEYLKKVLVVSPKNPAIKIRCVKYVKDIPDSKGSPSFE",
+                  "hseq": "GNKNFEEFQVLERNSSHTINIKSSPQTTPTHNESHNTGSASRKAGTARSLMKTTERVLYQAFDLDALRVAARDGDLASVSRVLDVRPGLSDAKTLYNAAKGGHDAVINLLFALGDFEPDPEPANDLPIDYSTPILAAIGKDNHLEVIKLFLGNSRFNPSRKIKGEAYY-DIAKRRGGPNCQ",
+                  "midline": "GN  FE    + ++    IN     Q T       +  S + +      L+ T+ +++Y+   +  L++     D    +  +++R  L+    +   +K G   +I+L   L  F+ +           S   +AAI   +  E +K  L  S  NP+ KI+   Y  DI   +G P+ +"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|8",
+                  "accession": "8",
+                  "title": "VDB90927.1 | transcript=BGT96224V316_LOCUS5951_t1 | gene=BGT96224V316_LOCUS5951 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026991:6541262-6544225(-) | protein_length=636 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 636,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 0.00374753,
+                  "identity": 18,
+                  "positive": 31,
+                  "query_from": 412,
+                  "query_to": 467,
+                  "hit_from": 108,
+                  "hit_to": 171,
+                  "align_len": 64,
+                  "gaps": 8,
+                  "qseq": "FQKLTNAEDEISVPKGF------DELGKSRTDLKTLNEDNFVALNNTVRFTTDSDGQ--DIFFW",
+                  "hseq": "FSRPTSSESPMSVPSNIFSQNYAPNVGQMSSQPHYHKQSNFVLMDQSTRFMVDSGIQEPDIFYY",
+                  "midline": "F + T++E  +SVP           +G+  +      + NFV ++ + RF  DS  Q  DIF++"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|10",
+                  "accession": "10",
+                  "title": "VDB93151.1 | transcript=BGT96224V316_LOCUS6906_t1 | gene=BGT96224V316_LOCUS6906 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026992:10812721-10813849(+) | protein_length=344 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 344,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 0.00894743,
+                  "identity": 24,
+                  "positive": 36,
+                  "query_from": 717,
+                  "query_to": 787,
+                  "hit_from": 67,
+                  "hit_to": 142,
+                  "align_len": 76,
+                  "gaps": 5,
+                  "qseq": "SAGRTTV--VVENTKEDKTVYHAGTKDGVQALIRAVVVT---KSIKNEIMWDKITKLFPNNSLDNLKKKWTARRVR",
+                  "hseq": "SKGRLTPDEPVRSTTEIQTVSHIIEENGVRLRLNIVDTPGYGDQVNNDRCWDPIVKYIKDQHSAYLRKELTAQRER",
+                  "midline": "S GR T    V +T E +TV H   ++GV+  +  V        + N+  WD I K   +     L+K+ TA+R R"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|13",
+                  "accession": "13",
+                  "title": "VDB94564.1 | transcript=BGT96224V316_LOCUS7738_t1 | gene=BGT96224V316_LOCUS7738 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026993:2678160-2678339(-) | protein_length=59 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 59,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.1794,
+                  "score": 56,
+                  "evalue": 0.0154375,
+                  "identity": 13,
+                  "positive": 17,
+                  "query_from": 90,
+                  "query_to": 118,
+                  "hit_from": 7,
+                  "hit_to": 35,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "DSLWTLLTGYTKKESTIGNSAFELLLEVA",
+                  "hseq": "DTFCVLPEGSPSKMSTIDNSYFQLMLGIA",
+                  "midline": "D+   L  G   K STI NS F+L+L +A"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|6",
+                  "accession": "6",
+                  "title": "VDB86146.1 | transcript=BGT96224V316_LOCUS3756_t1 | gene=BGT96224V316_LOCUS3756 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026988:16749513-16754705(+) | protein_length=1698 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 1698,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 20.4014,
+                  "score": 41,
+                  "evalue": 6.1758,
+                  "identity": 14,
+                  "positive": 19,
+                  "query_from": 543,
+                  "query_to": 573,
+                  "hit_from": 1232,
+                  "hit_to": 1268,
+                  "align_len": 37,
+                  "gaps": 6,
+                  "qseq": "GGFSARSLRSLQR----QRAIL--KVMNTIGGVAYLR",
+                  "hseq": "GAFYLRSSRDLQRIESVQRSPLFQQFGETLSGITTIR",
+                  "midline": "G F  RS R LQR    QR+ L  +   T+ G+  +R"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 20.0162,
+                  "score": 40,
+                  "evalue": 9.33555,
+                  "identity": 15,
+                  "positive": 24,
+                  "query_from": 58,
+                  "query_to": 103,
+                  "hit_from": 1310,
+                  "hit_to": 1357,
+                  "align_len": 49,
+                  "gaps": 4,
+                  "qseq": "DIEVYCDGAITTKNVTDI-IGDA--NHSYSVGITEDSLWTLLTGYTKKE",
+                  "hseq": "DFVAFAAGAFVILSIGKIDSGSAGLSLSYAISFTENVLW-LVRLYSMNE",
+                  "midline": "D   +  GA    ++  I  G A  + SY++  TE+ LW L+  Y+  E"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 14,
+            "db_len": 8224,
+            "hsp_len": 60,
+            "eff_space": 8122400,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+,
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.14.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "blastdb/b.graminis/trimmed.source"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_2",
+          "query_title": "DEG20010294",
+          "query_len": 528,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|1",
+                  "accession": "1",
+                  "title": "VCU39960.1 | transcript=BGT96224V316_LOCUS1207_t1 | gene=BGT96224V316_LOCUS1207 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026985:8766531-8768352(+) | protein_length=534 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 534,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 212.616,
+                  "score": 540,
+                  "evalue": 2.90287e-65,
+                  "identity": 165,
+                  "positive": 263,
+                  "query_from": 7,
+                  "query_to": 528,
+                  "hit_from": 1,
+                  "hit_to": 534,
+                  "align_len": 543,
+                  "gaps": 30,
+                  "qseq": "MSLNGTQYLKYELKDLESRAHDAKTPSTNEFYDDVESHGTEELVEAK-LSFLNRIAAGLSA----ETKGIEPITEDEKTDDSILNAASMWFSANMVLPAYAIGALGPMVFDLNFGQSVFVIIFFNLLGLVSVAFFSVFGAELGLRQMILSRYLVGNIAARIFSFINFIACIGWGIVNTVASSQVLNMVNPGHQCPLWAGCIVIIGATVIVTFFGYGVIHAYEKWAWVPNFAVFLVIIARLARSKKFVLGEWTSGPTTAGNVLSFGSTVYGFAAGWTTYAADYTVYMPRKTNKYKIFFSLVVGLATPLYFTMILGAAVA-----MAAIGD--------PAWKTYYDENSIGGLTFAVLVPNSVHG--FGQFCCVLLSLSTIANNVPNMYTIALSVQATWEPLAKVPRVIWTLLGNAAALGIAIPACYYFSTFMNYFMDSIGYYLAIYIAIACSEHFIYRRSFSAYNVDDWDSWERLPIGIAGTAALIVGAFGVAL-GMCQTYWVGEISRLIGDYGGDIGFELGLSWAFIVYNIARPFELKYFGR",
+                  "hseq": "MVITRPQLVDVEENSWENNASPVPTSSFNSNCNS-DPNSTQHASQARVLCQLQRAEAWLDEKMGIETQGIDRILEENKQPPSLLNMFLLWWSLTCHVGSLPIGMIGSEL-GLSFAQSVMAITTGTMFGAICTAFCGSLGPKLGLRAIATARFSFGYYSTKFCSLLNVIIGIGYTTVNVVVVGQILSAVSD-YKISIIVGCVIISILGYLVSLFGFKIIHTYEKYSWISIFIVFCVLYSQVGHMVDLSYPATSKGLAHTGAFLSFLAINFSSSATWSCIAADYYCNYPATTPSWKIWTLTYLGIVIPTVFANVLGACLGNIAFNITSVSDAKVHTYAYPALAESYQEHGLGG-----ILRESYHPLWLSKIVLVLLVFSVLGNNVATNYSVGLSLQLMGAYFHAVPRFIWSLLIAFVAMVIATAGRESLSTMVINFVSMLGYWSICFTFILALEDKVFRRK-SGYDLESWNVPSKLPWGIAAMTALLIGYLGGAVTGMAQSWYIGPIARIFGSHGGDVGIYLTGILTAAVYLPARWYEFKISHR",
+                  "midline": "M +   Q +  E    E+ A    T S N   +  + + T+   +A+ L  L R  A L      ET+GI+ I E+ K   S+LN   +W+S    + +  IG +G  +  L+F QSV  I    + G +  AF    G +LGLR +  +R+  G  + +  S +N I  IG+  VN V   Q+L+ V+  ++  +  GC++I     +V+ FG+ +IH YEK++W+  F VF V+ +++           + G    G  LSF +  +  +A W+  AADY    P  T  +KI+    +G+  P  F  +LGA +      + ++ D        PA    Y E+ +GG     ++  S H     +   VLL  S + NNV   Y++ LS+Q        VPR IW+LL    A+ IA       ST +  F+  +GY+   +  I   E  ++RR  S Y+++ W+   +LP GIA   AL++G  G A+ GM Q++++G I+R+ G +GGD+G  L       VY  AR +E K   R"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|2",
+                  "accession": "2",
+                  "title": "VCU41023.1 | transcript=BGT96224V316_LOCUS2272_t1 | gene=BGT96224V316_LOCUS2272 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026987:5134826-5136507(-) | protein_length=519 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 519,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.8018,
+                  "score": 68,
+                  "evalue": 0.00154317,
+                  "identity": 21,
+                  "positive": 27,
+                  "query_from": 102,
+                  "query_to": 144,
+                  "hit_from": 306,
+                  "hit_to": 354,
+                  "align_len": 49,
+                  "gaps": 6,
+                  "qseq": "AIGALGPMVFDLNFGQSVFVIIFFNLL--GLV----SVAFFSVFGAELG",
+                  "hseq": "AVGANGPCSVHVNFGQSGFVFIEANVKKWGLAPMTGSLAPPPPYGSEHG",
+                  "midline": "A+GA GP    +NFGQS FV I  N+   GL     S+A    +G+E G"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|11",
+                  "accession": "11",
+                  "title": "VDB93276.1 | transcript=BGT96224V316_LOCUS7030_t1 | gene=BGT96224V316_LOCUS7030 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026992:12191836-12193061(-) | protein_length=366 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 366,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 30.0314,
+                  "score": 66,
+                  "evalue": 0.00247268,
+                  "identity": 25,
+                  "positive": 43,
+                  "query_from": 205,
+                  "query_to": 301,
+                  "hit_from": 115,
+                  "hit_to": 205,
+                  "align_len": 99,
+                  "gaps": 10,
+                  "qseq": "IGATVIVTFFGYGVIHAYEKWAWVPNFAVFLVIIARLARSKKFVLGEWTSGPTTAGN--VLSFGSTVYGFAAGWTTYAADYTVYMPRKTNKYKIFFSLV",
+                  "hseq": "VGAPIIMSIFTSSI-----KWSWRELFWTFSIILESICILPQLVLLRQTTVPTVIDSYYLLTLGSYRAFYILNWIWRELDIT---DRKPDAISIIFGIL",
+                  "midline": "+GA +I++ F   +     KW+W   F  F +I+  +    + VL   T+ PT   +  +L+ GS    +   W     D T    RK +   I F ++"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|4",
+                  "accession": "4",
+                  "title": "VDB83778.1 | transcript=BGT96224V316_LOCUS2935_t1 | gene=BGT96224V316_LOCUS2935 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026988:3622184-3624002(+) | protein_length=557 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 557,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 0.00455491,
+                  "identity": 31,
+                  "positive": 52,
+                  "query_from": 150,
+                  "query_to": 267,
+                  "hit_from": 422,
+                  "hit_to": 542,
+                  "align_len": 131,
+                  "gaps": 23,
+                  "qseq": "LSRYLVGNIAAR----IFSFINFIACIGWGIVNTVA--SSQVLNMVNPGHQC-PLWAGCIVIIGATVIVTFFGYGVIHAYEKWAWVPNFAVFLVIIARLARS------KKFVLGEWTSGPTTAGNVLSFGS",
+                  "hseq": "LHKYADKNISNKQQAIIKSFAKALEIIPRQLCDNAGLDATDILNKLRVEHRKGNIWAG----------VDFEQEGVANNFEKFVWEPALVKVNAIQAAIEASCLILSVDETIKNEESAQPTAPGRALPPGA",
+                  "midline": "L +Y   NI+ +    I SF   +  I   + +     ++ +LN +   H+   +WAG          V F   GV + +EK+ W P       I A +  S       + +  E ++ PT  G  L  G+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|3",
+                  "accession": "3",
+                  "title": "VCU41183.1 | transcript=BGT96224V316_LOCUS2426_t1 | gene=BGT96224V316_LOCUS2426 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026987:7373320-7376139(+) | protein_length=875 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 875,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 29.261,
+                  "score": 64,
+                  "evalue": 0.00535842,
+                  "identity": 11,
+                  "positive": 12,
+                  "query_from": 222,
+                  "query_to": 238,
+                  "hit_from": 670,
+                  "hit_to": 686,
+                  "align_len": 17,
+                  "gaps": 0,
+                  "qseq": "YEKWAWVPNFAVFLVII",
+                  "hseq": "YEKWPWVPVFTLSLCII",
+                  "midline": "YEKW WVP F + L II"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|9",
+                  "accession": "9",
+                  "title": "VDB91115.1 | transcript=BGT96224V316_LOCUS6097_t1 | gene=BGT96224V316_LOCUS6097 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026991:8237677-8238441(+) | protein_length=254 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 254,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 28.1054,
+                  "score": 61,
+                  "evalue": 0.00859305,
+                  "identity": 13,
+                  "positive": 18,
+                  "query_from": 247,
+                  "query_to": 281,
+                  "hit_from": 165,
+                  "hit_to": 199,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "FVLGEWTSGPTTAGNVLSFGSTVYGFAAGWTTYAA",
+                  "hseq": "FLPREECSTPTVQTDLFAFGSVVYYFMTGHEPYES",
+                  "midline": "F+  E  S PT   ++ +FGS VY F  G   Y +"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|12",
+                  "accession": "12",
+                  "title": "VDB93711.1 | transcript=BGT96224V316_LOCUS7340_t1 | gene=BGT96224V316_LOCUS7340 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026992:15762897-15763283(-) | protein_length=128 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.5646,
+                  "score": 57,
+                  "evalue": 0.0146413,
+                  "identity": 14,
+                  "positive": 20,
+                  "query_from": 266,
+                  "query_to": 305,
+                  "hit_from": 18,
+                  "hit_to": 57,
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "GSTVYGFAAGWTTYAADYTVYMPRKTNKYKIFFSLVVGLA",
+                  "hseq": "GSFLFPILLAWTAFSKSLTITSPAPTNKIAIAINLVSWLA",
+                  "midline": "GS ++     WT ++   T+  P  TNK  I  +LV  LA"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|5",
+                  "accession": "5",
+                  "title": "VDB84456.1 | transcript=BGT96224V316_LOCUS3420_t1 | gene=BGT96224V316_LOCUS3420 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026988:10531109-10532439(-) | protein_length=426 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 426,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 0.0173688,
+                  "identity": 14,
+                  "positive": 17,
+                  "query_from": 376,
+                  "query_to": 412,
+                  "hit_from": 66,
+                  "hit_to": 102,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "IALSVQATWEPLAKVPRVIWTLLGNAAALGIAIPACY",
+                  "hseq": "IPEEVAAKTDKSNAFPNNMWHRLGNAGFLGITADACF",
+                  "midline": "I   V A  +     P  +W  LGNA  LGI   AC+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|0",
+                  "accession": "0",
+                  "title": "VCU38761.1 | transcript=BGT96224V316_LOCUS18_t1 | gene=BGT96224V316_LOCUS18 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026984:341379-342716(+) | protein_length=379 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 379,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 26.9498,
+                  "score": 58,
+                  "evalue": 0.0202214,
+                  "identity": 38,
+                  "positive": 67,
+                  "query_from": 83,
+                  "query_to": 224,
+                  "hit_from": 196,
+                  "hit_to": 347,
+                  "align_len": 156,
+                  "gaps": 18,
+                  "qseq": "SILNAASMWFSANMVLPAYAIGALGPMVFDLNFGQSVFVIIFFNLLGLVSVAFFSVFGAELGLRQMILSRYLVGNIAARIFSFIN------FIA-CIGWGIVNTVASSQVLNMVNPGHQCPLWAGCIVIIGA-----TVIVTFFGY--GVIHAYEK",
+                  "hseq": "SILNAGYAWMGMNVFCTAAYVLSMRKVIKKMNFKD--WDTMFYNNLLTIPVLFLCSLIFEQWTSENINNNFPIETRNSLILSMIYSGLATIFISYCSAWCI--RVTSSTTYSMVGALNKLPIAISGLIFFAAPVTFGSVSAIFIGFISGIVYAWAK",
+                  "midline": "SILNA   W   N+   A  + ++  ++  +NF    +  +F+N L  + V F      E    + I + + +    + I S I       FI+ C  W I   V SS   +MV   ++ P+    ++   A     +V   F G+  G+++A+ K"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 19.631,
+                  "score": 39,
+                  "evalue": 4.35217,
+                  "identity": 13,
+                  "positive": 19,
+                  "query_from": 459,
+                  "query_to": 495,
+                  "hit_from": 309,
+                  "hit_to": 342,
+                  "align_len": 37,
+                  "gaps": 3,
+                  "qseq": "ERLPIGIAGTAALIVGAFGVALGMCQTYWVGEISRLI",
+                  "hseq": "NKLPIAISG---LIFFAAPVTFGSVSAIFIGFISGIV",
+                  "midline": " +LPI I+G   LI  A  V  G     ++G IS ++"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|6",
+                  "accession": "6",
+                  "title": "VDB86146.1 | transcript=BGT96224V316_LOCUS3756_t1 | gene=BGT96224V316_LOCUS3756 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026988:16749513-16754705(+) | protein_length=1698 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 1698,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 27.335,
+                  "score": 59,
+                  "evalue": 0.0230494,
+                  "identity": 33,
+                  "positive": 49,
+                  "query_from": 121,
+                  "query_to": 232,
+                  "hit_from": 513,
+                  "hit_to": 639,
+                  "align_len": 127,
+                  "gaps": 15,
+                  "qseq": "VIIFFNLLGLVSVAFFSVFGAELGLRQMI---LSRYLVGNIAA---------RIFSFINFIACIGW--GIVNTVASSQVLNMVNPGHQCPLWAGCIVIIGAT-VIVTFFGYGVIHAYEKWAWVPNFA",
+                  "hseq": "VYLLYQILGYSSIPGMVVMVILLPLNIMVARGFSRYQKQIMAATDKRIHTTNEVFQNIRIIKYFAWEQRFQNLVNDKRRVELASLRSKYVLWATAVAIWNTVPVIITFFSFLVYTVVEKKPLYPSIA",
+                  "midline": "V + + +LG  S+    V    L L  M+    SRY    +AA          +F  I  I    W     N V   + + + +   +  LWA  + I     VI+TFF + V    EK    P+ A"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|7",
+                  "accession": "7",
+                  "title": "VDB89124.1 | transcript=BGT96224V316_LOCUS4879_t1 | gene=BGT96224V316_LOCUS4879 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026990:6556782-6561229(-) | protein_length=1449 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 1449,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 21.9422,
+                  "score": 45,
+                  "evalue": 0.87413,
+                  "identity": 12,
+                  "positive": 19,
+                  "query_from": 483,
+                  "query_to": 521,
+                  "hit_from": 203,
+                  "hit_to": 238,
+                  "align_len": 39,
+                  "gaps": 3,
+                  "qseq": "CQTYWVGEISRLIGDYGGDIGFELGLSWAFIVYNIARPF",
+                  "hseq": "CQ---LTRQQRLHPDFNLNNGFRTGISTARNESDLAKSF",
+                  "midline": "CQ   +    RL  D+  + GF  G+S A    ++A+ F"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gnl|BL_ORD_ID|13",
+                  "accession": "13",
+                  "title": "VDB94564.1 | transcript=BGT96224V316_LOCUS7738_t1 | gene=BGT96224V316_LOCUS7738 | organism=Blumeria_graminis_f._sp._tritici_96224 | gene_product=unspecified product | transcript_product=unspecified product | location=LR026993:2678160-2678339(-) | protein_length=59 | sequence_SO=chromosome | SO=protein_coding_gene | is_pseudo=false"
+                }
+              ],
+              "len": 59,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 18.0902,
+                  "score": 35,
+                  "evalue": 5.13006,
+                  "identity": 6,
+                  "positive": 10,
+                  "query_from": 309,
+                  "query_to": 324,
+                  "hit_from": 27,
+                  "hit_to": 42,
+                  "align_len": 16,
+                  "gaps": 0,
+                  "qseq": "YFTMILGAAVAMAAIG",
+                  "hseq": "YFQLMLGIAILLDLFG",
+                  "midline": "YF ++LG A+ +   G"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 14,
+            "db_len": 8224,
+            "hsp_len": 54,
+            "eff_space": 3539832,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}
