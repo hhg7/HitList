@@ -28,14 +28,14 @@ installed.
 BLAST Databases
 ===============
 
-Download Fasta {#sxn:blast.download}
+Download Fasta
 --------------
 
 Input fasta, whether proteome, genome, or transcriptome, should be
 downloaded, usually from
 [NCBI](https://ftp.ncbi.nlm.nih.gov/genomes/refseq/), or another source.
 
-Make BLAST Databases {#sxn:makeblastdb}
+Make BLAST Databases
 --------------------
 
 Blast databases should be created using
