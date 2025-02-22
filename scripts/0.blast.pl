@@ -9,17 +9,6 @@ use util qw(json_file_to_ref ref_to_json_file execute);
 use Getopt::Long 'GetOptions';
 use feature 'say';
 use DDP;
-use Module::Path 'module_path';
-
-foreach my $module ('Test::More', 'DDP', 'Devel::Confess') {
-	my $path = module_path($module);
-	if (defined($path)) {
-	  print "$module\t$path\n";
-	} else {
-	  print "Danger Will Robinson!\n";
-	}
-}
-die;
 my %hits;
 
 sub tblastn_or_blastp {
